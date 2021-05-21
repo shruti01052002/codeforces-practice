@@ -1,0 +1,5 @@
+t=list(input().lower())
+x=list(filter(lambda ch: ch!='a' and ch!='e' and ch!='i' and ch!='o' and ch!='u' and ch!='y',t))
+y=' '.join(x)
+z=list(y.split())
+print('.'+'.'.join(z))
